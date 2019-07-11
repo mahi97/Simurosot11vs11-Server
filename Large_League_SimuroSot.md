@@ -1,31 +1,35 @@
-FIRA Large League SimuroSot Game Rules
+# FIRA Large League SimuroSot Game Rules
 
-Law 0. General rules
-(1)   The aim of simulate competition:
-(a)   It is used for developing basic action algorithm and game strategy of robot soccer.
-(b)   It is used for providing game training and strategy learning environment for each team.
-(c)	It is used for testing the feasibility and advancement of the game strategy of each team.
+## Law 0. General rules
+  1. The aim of simulate competition:
+  
+    a. It is used for developing basic action algorithm and game strategy of robot soccer.
+    b. It is used for providing game training and strategy learning environment for each team.  
+    c. It is used for testing the feasibility and advancement of the game strategy of each team.
 
-(2)   rationale of simulate competition:
-(a)  Using computer graphics to simulate the field, the robots and the ball.
-(b)  Using kinematics and dynamics to simulate movements of the robots and the ball.
-(c)  Firstly, input each team’s game strategy into the client program, and then link the clients to the server using UDP/IP protocol. Secondly, make the preparation for competition. It includes the startup of system and the position of the robots of each team. Finally, match between each team. Like the MiroSot competition, simulate competition is controlled by the referee. The game begins, when the referee whistles. The game follows the rules that this text puts forward.
+  2. Rationale of simulate competition:
+  
+    a. Using computer graphics to simulate the field, the robots and the ball.
+    b. Using kinematics and dynamics to simulate movements of the robots and the ball.
+    c. Firstly, input each team’s game strategy into the client program, and then link the clients to the server using UDP/IP protocol. Secondly, make the preparation for competition. It includes the startup of system and the position of the robots of each team. Finally, match between each team. Like the MiroSot competition, simulate competition is controlled by the referee. The game begins, when the referee whistles. The game follows the rules that this text puts forward.
 
-(3)   simulate competition hardware:
-(a)  The simulate competition uses three computers (IBM/586-600), one used as server, the other two used as clients.
-(b)  Three computers are connected through Ethernet.
+  3. Simulate competition hardware:
+    
+    a. The simulate competition uses three computers (IBM/586-600), one used as server, the other two used as clients.
+    b. Three computers are connected through Ethernet.
+  
+  4.Simulate competition software framework:
+    
+    a. Simulate competition software is compiled using VC++ 6.0, and it can run under windows 98.
+    b. Figure 1 is the SimuroSot software framework :
+    Figure 1 SimuroSot software framework
 
-(4)   Simulate competition software framework:
-(a)  Simulate competition software is compiled using VC++ 6.0, and it can run under windows 98.
-(b)  Figure 1 is the SimuroSot software framework :
+  5. The role of referee is:
+    
+    a. To control the begin, break and finish of the game;
+    b. To declare penalty to the fouls.
 
-               Figure 1 SimuroSot software framework
-
-(5)  the role of referee is:
-(a) to control the begin, break and finish of the game;
-(b)  to declare penalty to the fouls.
-
-Law 1. The Field
+## Law 1. The Field
 (1) Playground dimensions (Appendix1)
 A black rectangular playground 1130(pixel) x 788(pixel) in size, with 5(pixel) thick light blue side-walls will be used. Solid 42(pixel) x 42(pixel) isosceles triangles shall be fixed at the four corners of the playground to avoid the ball getting cornered.
 
