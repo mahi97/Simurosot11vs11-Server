@@ -1,6 +1,6 @@
 ### Follow below steps to connect the client to server and run the program:
 
-1.Execute the server program on one computer.
+1. Execute the server program on one computer.
 
 2. Execute the client program on another computer linked to the first computer.
 
@@ -14,7 +14,7 @@
 
 7. Press `->` and `<-` button in keyboard in server, you can select one item in menu. When some item in menu is selected, it is highlighted. Select `go`, and press `Enter` button in the keyboard. At this time, the match will begin.
 
-8. use `p`,`l`,`:`,`'`button to move robot and ball, use `b` to make the ball be active to moving, use `t` to choose which team's robot is active to moving, use `s` choose which robot in a team is active to moving.
+8. use <kbd>P</kbd>,`l`,`:`,`'`button to move robot and ball, use `b` to make the ball be active to moving, use `t` to choose which team's robot is active to moving, use `s` choose which robot in a team is active to moving.
 
 9. Press `Escape` button in the keyboard, you can quit the match.
 
